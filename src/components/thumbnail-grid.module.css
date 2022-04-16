@@ -1,0 +1,16 @@
+.thumbNailGrid {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5vh;
+    grid-template-columns: repeat(3, 30vw);
+    grid-template-rows: repeat(3, 22vh);
+}
+
+.thumbNail {
+    max-width: 30vw;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid white;
+    margin: 0.5vw;
+}

@@ -1,0 +1,51 @@
+.mainRugImage {
+    max-width: 80vw;
+    max-height: 60vh;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    font-family: freedom-font;
+    justify-content: center;
+}
+
+.loomImage {
+    display: block;
+    max-width: 90vw;
+    height: auto;
+    margin: auto;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+    border-radius: 8px;
+}
+
+.heading2 {    
+    font-family: freedom-font;
+    color: #FFF689;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: auto;
+    -webkit-text-stroke: 1px #342038;
+    text-align: center;
+    float: bottom;
+}
+
+@media only screen and (min-width: 960px) {
+    .mainRugImage {
+        max-height: 70vh;
+        width: auto;
+        margin: auto;
+        -webkit-box-reflex: below;
+    }
+
+    .loomImage {
+        display: block;
+        max-height: 65vh;
+        width: auto;
+        margin: auto;
+    }
+}
